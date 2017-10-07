@@ -1,7 +1,5 @@
 import requests
-import pprint
 from bs4 import BeautifulSoup
-#try selenium
 
 # Fill in your details here to Sbe posted to the login form.
 payload = {
