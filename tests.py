@@ -8,7 +8,7 @@ class TestAccessingAuthPage(unittest.TestCase):
         self.assertEqual(
             'Site administration',
             title,
-            'Should have received Site administration as the title'
+            'Should have received "Site administration" as the title'
             )
 
 if __name__ == '__main__':
