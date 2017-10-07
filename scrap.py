@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 # Fill in your details here to Sbe posted to the login form.
 payload = {
     'next': '/admin/',
-    'password':'(famille)',
-    'username':'admin1'
+    'password':'mypassword',
+    'username':'admin'
 }
 
 def get_the_csrftoken(webpage):
