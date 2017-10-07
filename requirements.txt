@@ -1,3 +1,4 @@
 requests==2.18.14
 beautifulsoup4==4.6.0
 django==1.11.5
+lxml==4.0.0

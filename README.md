@@ -7,7 +7,7 @@
 1.  pip install -r requirements.txt #or make dev
 2.  django-admin startproject tutorialAccessLoginPage
 3.  cd tutorialAccessLoginPage
-4.  python manage migrate
+4.  python manage.py migrate
 5.  python manage.py createsuperuser #username:`admin` #email:`hello@gmail.com` #password:`mypassword`
 6.  python manage.py runserver
 5.  cd ..
