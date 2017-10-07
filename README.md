@@ -3,7 +3,11 @@
 ### how to access an Authorization page in Python using requests
 
 1.  pip install -r requirements.txt #or make dev
-2.  python scrap.py
+2.  django-admin startproject tutorialAccessLoginPage
+3.  cd tutorialAccessLoginPage
+4.  python manage migrate
+5.  cd ..
+6.  python scrap.py
 
 
 ```shell

@@ -19,7 +19,7 @@ def get_the_csrftoken(webpage):
 def get_the_title(webpage):
     #Parse the content of that page
     soup = BeautifulSoup(webpage, 'lxml')
-    #Get the second title 
+    #Get the second title
     title = soup.find_all("h1")[1].text
 
     return title
