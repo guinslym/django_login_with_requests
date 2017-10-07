@@ -2,6 +2,8 @@
 
 ### how to access an Authorization page in Python using requests
 
+1.  virtualenv env_python3
+2.  source env_python3/bin/activate
 1.  pip install -r requirements.txt #or make dev
 2.  django-admin startproject tutorialAccessLoginPage
 3.  cd tutorialAccessLoginPage
