@@ -1,4 +1,4 @@
-wdev:
+dev:
 	pip install -r requirements/development.txt
 
 djadmin-chromium:
