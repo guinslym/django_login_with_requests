@@ -44,7 +44,8 @@ def main():
         title = get_the_title(resp.content)
 
         #Assert that I receive the right page content
-        assert 'Site administration' in title
+        # assert 'Site administration' in title
+        print(title)
 
 
 
