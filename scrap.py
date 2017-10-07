@@ -43,9 +43,9 @@ def main():
 
         #Assert that I receive the right page content
         # assert 'Site administration' in title
-        print(title)
-
-
+        # print(title)
+        return title
 
 if __name__ == "__main__":
-    main()
+    title = main()
+    print(title)
