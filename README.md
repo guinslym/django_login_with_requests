@@ -8,7 +8,7 @@
 2.  django-admin startproject tutorialAccessLoginPage
 3.  cd tutorialAccessLoginPage
 4.  python manage migrate
-5.  python manage.py createsuperuser #admin #hello@gmail.com #mypassword
+5.  python manage.py createsuperuser #`admin` #`hello@gmail.com` #`mypassword`
 6.  python manage.py runserver
 5.  cd ..
 6.  python scrap.py
